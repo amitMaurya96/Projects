@@ -14,5 +14,4 @@ document.getElementById('membership-form').addEventListener('submit', function(e
 
   alert(`Thank you, ${fullName}, for signing up for the ${membershipType} membership! We will contact you at ${email} or ${phone} before your start date on ${startDate}.`);
 
-  // You can further handle form submission here, like sending the data to a backend server.
 });
