@@ -1,0 +1,188 @@
+/* Global Styles */
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #f4f4f4;
+}
+
+header {
+  background-color: #333;
+  color: white;
+  padding: 1rem;
+}
+
+header nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+header nav .logo {
+  font-size: 1.5rem;
+  font-weight: bold;
+}
+
+header nav ul {
+  list-style: none;
+  display: flex;
+  margin: 0;
+  padding: 0;
+}
+
+header nav ul li {
+  margin-left: 2rem;
+}
+
+header nav ul li a {
+  color: white;
+  text-decoration: none;
+  font-size: 1rem;
+}
+
+.hero {
+  background-image: url('gym-background.jpg');
+  background-size: cover;
+  background-position: center;
+  color: white;
+  text-align: center;
+  padding: 5rem 1rem;
+}
+
+.hero h1 {
+  font-size: 3rem;
+  margin-bottom: 1rem;
+}
+
+.hero p {
+  font-size: 1.5rem;
+  margin-bottom: 2rem;
+}
+
+.btn {
+  background-color: #ff5722;
+  color: white;
+  padding: 0.75rem 2rem;
+  text-decoration: none;
+  border-radius: 5px;
+  font-size: 1rem;
+}
+
+.services, .trainers, .contact {
+  padding: 2rem 1rem;
+  text-align: center;
+}
+
+.services h2, .trainers h2, .contact h2 {
+  font-size: 2rem;
+  margin-bottom: 2rem;
+}
+
+.service-cards, .trainer-cards {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
+
+.service-card, .trainer-card {
+  background-color: white;
+  padding: 1rem;
+  border-radius: 5px;
+  margin: 1rem;
+  width: 30%;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.trainer-card img {
+  max-width: 100%;
+  border-radius: 50%;
+}
+
+.contact form {
+  max-width: 600px;
+  margin: 0 auto;
+  text-align: left;
+}
+
+.contact form label {
+  display: block;
+  margin-bottom: 0.5rem;
+}
+
+.contact form input, .contact form textarea {
+  width: 100%;
+  padding: 0.5rem;
+  margin-bottom: 1rem;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+}
+
+.contact form button {
+  display: block;
+  width: 100%;
+  padding: 0.75rem;
+  background-color: #ff5722;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  font-size: 1rem;
+}
+
+footer {
+  background-color: #333;
+  color: white;
+  text-align: center;
+  padding: 1rem;
+  margin-top: 2rem;
+}
+
+.membership {
+  padding: 2rem 1rem;
+  background-color: #f9f9f9;
+  text-align: center;
+}
+
+.membership h2 {
+  font-size: 2rem;
+  margin-bottom: 1rem;
+}
+
+.membership p {
+  margin-bottom: 2rem;
+}
+
+.membership form {
+  max-width: 600px;
+  margin: 0 auto;
+  text-align: left;
+}
+
+.membership form label {
+  display: block;
+  margin-bottom: 0.5rem;
+  font-weight: bold;
+}
+
+.membership form input, .membership form select, .membership form textarea {
+  width: 100%;
+  padding: 0.5rem;
+  margin-bottom: 1rem;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+}
+
+.membership form button {
+  display: block;
+  width: 100%;
+  padding: 0.75rem;
+  background-color: #ff5722;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  font-size: 1rem;
+  cursor: pointer;
+}
+
+.membership form button:hover {
+  background-color: #e64a19;
+}

@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Gym</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <!-- Header Section -->
+    <header>
+        <nav>
+            <div class="logo">My Gym</div>
+            <ul>
+                <li><a href="#home">Home</a></li>
+                <li><a href="#services">Services</a></li>
+                <li><a href="#trainers">Trainers</a></li>
+                <li><a href="#membership">Membership</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+            
+        </nav>
+    </header>
+
+    <!-- Home Section -->
+    <section id="home" class="hero">
+        <h1>Welcome to My Gym</h1>
+        <p>Get fit, stay healthy!</p>
+        <a href="#services" class="btn">Explore Our Services</a>
+    </section>
+
+    <!-- Services Section -->
+    <section id="services" class="services">
+        <h2>Our Services</h2>
+        <div class="service-cards">
+            <div class="service-card">
+                <h3>Personal Training</h3>
+                <p>Get personalized fitness plans tailored to your goals.</p>
+            </div>
+            <div class="service-card">
+                <h3>Group Classes</h3>
+                <p>Join our energizing group workouts for all fitness levels.</p>
+            </div>
+            <div class="service-card">
+                <h3>Nutrition Guidance</h3>
+                <p>Learn how to fuel your body for optimal performance.</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Trainers Section -->
+    <section id="trainers" class="trainers">
+        <h2>Meet Our Trainers</h2>
+        <div class="trainer-cards">
+            <div class="trainer-card">
+                <img src="trainer1.jpg" alt="Trainer 1">
+                <h3>John Doe</h3>
+                <p>Specialist in weight training and bodybuilding.</p>
+            </div>
+            <div class="trainer-card">
+                <img src="trainer2.jpg" alt="Trainer 2">
+                <h3>Jane Smith</h3>
+                <p>Expert in yoga and pilates.</p>
+            </div>
+            <div class="trainer-card">
+                <img src="trainer3.jpg" alt="Trainer 3">
+                <h3>Michael Lee</h3>
+                <p>Cardio and endurance training specialist.</p>
+            </div>
+        </div>
+    </section>
+
+        <!-- Membership Section -->
+<section id="membership" class="membership">
+    <h2>Join Our Gym</h2>
+    <p>Sign up today and start your fitness journey with us!</p>
+    <form id="membership-form">
+        <label for="full-name">Full Name:</label>
+        <input type="text" id="full-name" name="full-name" required>
+
+        <label for="email">Email:</label>
+        <input type="email" id="email" name="email" required>
+
+        <label for="phone">Phone Number:</label>
+        <input type="tel" id="phone" name="phone" required>
+
+        <label for="membership-type">Membership Type:</label>
+        <select id="membership-type" name="membership-type" required>
+            <option value="basic">Basic</option>
+            <option value="premium">Premium</option>
+            <option value="vip">VIP</option>
+        </select>
+
+        <label for="start-date">Preferred Start Date:</label>
+        <input type="date" id="start-date" name="start-date" required>
+
+        <label for="additional-info">Additional Information:</label>
+        <textarea id="additional-info" name="additional-info"></textarea>
+
+        <button type="submit">Join Now</button>
+    </form>
+</section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact">
+        <h2>Contact Us</h2>
+        <form id="contact-form">
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="name" required>
+
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required>
+
+            <label for="message">Message:</label>
+            <textarea id="message" name="message" required></textarea>
+
+            <button type="submit">Send Message</button>
+        </form>
+    </section>
+
+
+    <!-- Footer Section -->
+    <footer>
+        <p>&copy; 2024 My Gym. All rights reserved.</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
